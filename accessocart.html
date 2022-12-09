@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./img/s.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/boxicons.min.css ">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Product Details | Bike Model Shop</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <nav class="top-nav sticky-top" id="home" >
+      <div class="container">
+          <div class="row justify-content-between">
+
+              <div class="col-auto">
+                  <div class="social-links"> 
+                    <p>Follow us on | </p>
+                     <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+                     <a href="https://www.instagram.com/"><i class='bx bxl-instagram' ></i></a>
+                     <a href="https://www.tiktok.com/login"><i class='bx bxl-tiktok' ></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+          <a class="logo" href="BikeModel.html"><img src="">Insert Logo Here</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria- 
+           controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+
+                 <li class="nav-item">
+                    <a class="nav-link" href="BikeModel.html">Home</a>
+                 </li>
+
+                 <li class="nav-item">
+                    <a class="nav-link" href="Bmodelp.html">Products</a>
+                 </li>
+
+                 <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                 </li>
+
+            </ul>
+
+            <li class="item dropdown">
+              <a class="Account dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">
+                 <i class='bx bxs-user'></i>
+              </a>
+              <ul class="dropdown-menu border-0 shadow-lg" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="index.html">LogOut</a></li>
+              </ul>
+          </li>
+          </div>
+        </div>
+    </nav>
+
+<!--cart-->
+<div class="container">
+	<h1>Shopping Cart</h1>
+	<div class="cart">
+		<div class="products">
+			<div class="product">
+				<img src="./img/1.png">
+
+				<div class="product-info">
+					<h3 class="product-name">Bike Accessories</h3>
+					<h4 class="product-price">₱ 00,000.00</h4>
+					<p class="product-quantity">Qnt: <input type="number" value="1">
+					<p class="product-remove">
+						<a href=""><i class='bx bx-trash' ></i></a>
+					</p>
+				</div>
+			</div>
+		
+		</div>
+		<div class="cart-total">
+			<p>
+				<span>Discount:</span>
+				<span>5%</span>
+			</p>
+			<p>
+				<span>Number of Items:</span>
+				<span>1</span>
+			</p>
+      <p>
+				<span>Shipping Fee:</span>
+				<span>₱ 000.00</span>
+			</p>
+			<p>
+				<span>Total Price:</span>
+				<span>₱ 00,000.00</span>
+			</p>
+     
+			<a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Proceed to Checkout</a>
+		</div>
+	</div>
+</div>
+
+
+<!--Modal info Checkout-->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 ">
+
+                    <form class="row g-3 gy-7 align-items-center">
+                        <h1>Check Out Form</h1>
+
+                        <div class="col-md-5">
+                          <label for="validationDefault01" class="form-label">Fullname</label>
+                          <input type="text" class="form-control" id="fname" required>
+                        </div>
+
+
+                        <div class="col-md-7">
+                          <label for="validationDefault03" class="form-label">Permanent Address</label>
+                          <input type="text" class="form-control" id="add" required>
+                        </div>
+
+                        <div class="col-md-5 ">
+                          <label for="validationDefault05" class="form-label">Contact Number</label>
+                          <input type="" class="form-control" id="num" placeholder="+63" required>
+                        </div>  
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="cash" required>
+                          <label class="form-check-label" for="flexRadioDefault1">
+                          Cash On Delivery
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="onpay" required>
+                          <label class="form-check-label" for="flexRadioDefault2">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                              <option selected>Online Payment</option>
+                              <option value="1">Payment Center / E-Wallet</option>
+                              <option value="2">Online Banking</option>
+                              <option value="3">Credit / Debit Card</option>
+                            </select>
+                          </label>
+                        </div>
+                        
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="del" required>
+                          <label class="form-check-label" for="defaultCheck1">
+                            
+                            <select class="form-select" aria-label="Disabled select example" id="del">
+                              <option selected>Select Courier</option>
+                              <option value="1">Lalamog</option>
+                              <option value="2">LBM</option>
+                              <option value="3">J&T Not Express</option>
+                            </select>
+                          </label>
+                        </div>
+
+                      <div class="col-12">
+                          <button class="btn btn-primary" type="submit" onclick="alert('Your order has beed process. Thank You for Trusting our website. :)')">Check Out </button>
+                          <button type="button" class="btn btn-seonodary" data-bs-dismiss="modal">close</button>
+                      </div>
+                      </form>
+                      
+
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+<!--footer-->
+<footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                <a class="logo"><img src="./img/L.png"></a>
+                 <p>"Websites promote you all the time. No employee will do that for you."</p>
+                 <div class="social-links">
+                       <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+                       <a href="https://www.instagram.com/"><i class='bx bxl-instagram' ></i></a>
+                       <a href="https://www.tiktok.com/login"><i class='bx bxl-tiktok' ></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="mb-0">Copyright@2022. All Rights Reserved</p>
+      </div>
+    </div>
+</footer>
+
+
+ <script src="./js/jquery.min.js"></script>
+ <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+ <script src="./js/bootstrap.bundle.min.js"></script>
+ <script src="./js/owl.carousel.min.js"></script>
+ <script src="./js/app.js"></script>
+
+</body>
+</html>
