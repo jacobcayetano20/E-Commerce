@@ -47,9 +47,18 @@
                  </li>
 
                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                  <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#contact">Contact</a>
                  </li>
 
+                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Store's Online
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="accessries.html">Bike Accessories Store</a></li>
+                      <li><a class="dropdown-item" href="clothing.html">Bike Jerseys Tailoring Shop</a></li> 
+                    </ul>
+                  </li>
             </ul>
 
             <li class="item dropdown">
@@ -183,7 +192,58 @@
         </div>
     </footer>
 
-
+<!--Contact-->
+    <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content">
+              <div class="modal-body p-0">
+                  <div class="container-fluid">
+                      <div class="row gy-4">
+                          <div class="col-lg-4 col-sm-12 bg-cover"
+                              style="background-image: url(./img/contact.jpg); min-height:500px; width:250px; margin-left: 20px;">
+                              <div>
+                                  
+                              </div>
+                          </div>
+                          <div class="col-lg-8">
+                              <form class="p-lg-5 col-12 row g-3">
+                                  <div>
+                                      <h1>Contact Us</h1>
+                                  <p>Having a problem on your purchase?</p>
+                                  </div>
+                                  <div class="col-lg-6">
+                                      <label for="userName" class="form-label">First name</label>
+                                      <input type="text" class="form-control"  id="userName"
+                                          aria-describedby="emailHelp">
+                                  </div>
+                                  <div class="col-lg-6">
+                                      <label for="userName" class="form-label">Last name</label>
+                                      <input type="text" class="form-control" id="userName"
+                                          aria-describedby="emailHelp">
+                                  </div>
+                                  <div class="col-12">
+                                      <label for="userName" class="form-label">Email address</label>
+                                      <input type="email" class="form-control" id="userName"
+                                          aria-describedby="emailHelp">
+                                  </div>
+                                  <div class="col-12">
+                                      <label for="exampleInputEmail1" class="form-label">Message</label>
+                                      <textarea name="" class="form-control" id=""  rows="4"></textarea>
+                                  </div>
+  
+                                  <div class="col-12">
+                                      <button type="submit" class="btn btn-brand" onclick="alert('Your message has been sent. Thank you!')">Send Message</button>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+  
+          </div>
+      </div>
+  </div>
+  
      <script src="./js/jquery.min.js"></script>
      <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
      <script src="./js/bootstrap.bundle.min.js"></script>

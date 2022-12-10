@@ -47,7 +47,7 @@
                    </li>
   
                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
+                    <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#contact">Contact</a>
                    </li>
 
                    <li class="nav-item dropdown">
@@ -56,7 +56,7 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="BikeModel.html">Bike Model Shop</li>
-                      <li><a class="dropdown-item" href="#">Bike Clothing Shop</a></li> 
+                      <li><a class="dropdown-item" href="clothing.html">Bike Jerseys Tailoring Shop</a></li> 
                     </ul>
                   </li>
   
@@ -148,7 +148,7 @@
 
                 <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all spe">
                     <div class = "collection-img position-relative">
-                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <a href="acessoriesS.html"><img src = "./img/helmet.jpg" class = "w-100"></a>    
                       <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">Sale</span>
                     </div>
                     <div class = "text-center">
@@ -159,14 +159,14 @@
                             <span class = "text-primary"><i class='bx bxs-star checked' ></i></span>
                             <span class = "text-primary"><i class='bx bxs-star-half checked' ></i></span>
                         </div>
-                        <p class = "text-capitalize my-1">Specialized</p>   
-                        <span class = "fw-bold checked">₱ 25,000.00 <strike>₱ 60,000.00</strike></span>
+                        <p class = "text-capitalize my-1">Helmet</p>   
+                        <span class = "fw-bold checked">₱ 1,599.00 </span>
                     </div>
                 </div>
 
                 <div class = "col-md-6 col-lg-4 col-xl-3 p-2 all trek">
                     <div class = "collection-img position-relative">
-                      <a href="acessoriesS.html"><img src = "./img/2.jpg" class = "w-100"></a>    
+                      <a href="acessoriesS.html"><img src = "./img/light.jpg" class = "w-100"></a>    
                       <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">Top</span>
                     </div>
                     <div class = "text-center">
@@ -594,6 +594,58 @@
       </div>
     </div>
  </footer>
+
+<!--Contact-->
+<div class="modal fade" id="contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-body p-0">
+                <div class="container-fluid">
+                    <div class="row gy-4">
+                        <div class="col-lg-4 col-sm-12 bg-cover"
+                            style="background-image: url(./img/contact.jpg); min-height:500px; width:250px; margin-left: 20px;">
+                            <div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <form class="p-lg-5 col-12 row g-3">
+                                <div>
+                                    <h1>Contact Us</h1>
+                                <p>Having a problem on your purchase?</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="userName" class="form-label">First name</label>
+                                    <input type="text" class="form-control"  id="userName"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="userName" class="form-label">Last name</label>
+                                    <input type="text" class="form-control" id="userName"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="col-12">
+                                    <label for="userName" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="userName"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="col-12">
+                                    <label for="exampleInputEmail1" class="form-label">Message</label>
+                                    <textarea name="" class="form-control" id=""  rows="4"></textarea>
+                                </div>
+  
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-brand" onclick="alert('Your message has been sent. Thank you!')">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        </div>
+    </div>
+  </div>
 
  <script src="./js/jquery.min.js"></script>
  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>

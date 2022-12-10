@@ -41,7 +41,7 @@ section{
 
 /* nav bar*/
 .top-nav{
-    background-color: 	#5A5A5A;
+    background-color: 	#292525;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -207,7 +207,7 @@ footer{
     padding-bottom: 40px ;
     color: #ffff;
     text-align: center;
-    background: linear-gradient(rgba(32, 65, 90, 0.8), rgba(34, 84, 122, 0.8)), url(../img/badge2.jpeg);
+    background: linear-gradient(rgba(105, 116, 88, 0.8), rgba(51, 52, 53, 0.8)), url(../img/tech\ \(2\).jpg);
 
 }
 footer .navbar-brand{
@@ -418,6 +418,29 @@ footer .social-links a{
     background-color:#5A5A5A;
     border: none;
 }
+.banner2{
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/jersy.jpg);
+}
+.banner2 .content{
+    text-align: center;
+    padding-top: 100px;
+}
+.banner2 .content h1{
+    color: rgb(255, 254, 254);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    letter-spacing: 3px;
+}
+.banner2 .content p{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    letter-spacing: 3px;
+}
+
+
 
 /*bg bike model shop*/
 
@@ -630,6 +653,47 @@ input:focus{
 .cart-total a:hover{
 	background-color: rgb(51, 49, 49);
 }
+/*clothing*/
+
+.gradient{
+	background: linear-gradient(45deg,#bdc3c7,#2c3e50);
+    background-size: 300% 200%;
+    animation: color 10s ease-in-out infinite;
+    padding-bottom: 50px;
+
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%,;
+    }
+    50%{
+        background-position: 100%, 50%;
+    }
+
+    1000%{
+        background-position: 0 50%;
+    }
+}
+.gradient2{
+	background: linear-gradient(45deg,#8f9297,#a8c6e9);
+    background-size: 300% 200%;
+    animation: color 10s ease-in-out infinite;
+    padding-bottom: 50px;
+
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%,;
+    }
+    50%{
+        background-position: 100%, 50%;
+    }
+
+    1000%{
+        background-position: 0 50%;
+    }
+}
+
 
 
 /*asdasd*/

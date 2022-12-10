@@ -16,10 +16,6 @@
 </head>
 <body class="forms">
     
-
-
-
-    
     <div class="container">
         <div class="forms">
             <div class="form login">
@@ -79,11 +75,23 @@
                         <i class="uil uil-lock icon"></i>
                     </div>
                     
-                    <div class="input-field">
-                        <input type="password" class="password" placeholder="Confirm a password" required>
-                        <i class="uil uil-lock icon"></i>
-                        <i class="uil uil-eye-slash showHidePw"></i>
-                    </div>
+                    <div class="form-check" style="margin-top: 20px;">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" required>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            <i class='bx bxl-paypal' >E-Wallet</i>
+                        </label>
+                      </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-top: 30px;">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            <div class="input-group mb-3" style="margin-top: 20px;">
+                                <span class="input-group-text"><i class='bx bxs-credit-card'></i></span>
+                                <span class="input-group-text"><i class='bx bx-hash' ></i></span>
+                                <input type="text" class="form-control" placeholder="Credit / Debit Card" aria-label="Dollar amount (with dot and two decimal places)">
+                              </div>
+                        </label>
+                      </div>
 
                     <div class="checkbox-text">
                         <div class="checkbox-content">
@@ -93,7 +101,7 @@
                     </div>
 
                     <div class="input-field button">
-                     <a href="form.html"><input type="button" value="Register" onclick="alert('Registration Complete, Click OK to login')"></a>
+                     <a href="formS.html"><input type="button" value="Register" onclick="alert('Registration Complete, Click OK to login')"></a>
                     </div>
                 </form>
                 <div class="login-signup">
